@@ -1,1 +1,0 @@
-Teste do Vinicius - 06/03/2026 - Tudo funcionando!
