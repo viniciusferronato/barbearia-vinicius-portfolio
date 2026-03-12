@@ -1,20 +1,72 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
 }
 
 header {
-    background-color: #1a1a1a;
-    padding: 15px 0;
+    background-color: rgb(35, 37, 37);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
-.menu {
-    text-decoration: none;
-    display: flex;
+    align-content: center;
     margin: 0;
     padding: 0;
+}
+
+.logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(194, 133, 10);
+}
+
+.logo h1 {
+    padding-left: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 300px;
+    display: flex;
+}
+
+.menu ul li {
+    margin: 15px;
+    color: aliceblue;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*PARTE DO HERO --------------------------------------------------------------*/
+
+.hero {
+    background-color: rgb(66, 77, 77);
+    align-content: center;
+    text-align: center;
+    height: 380px;
+}
+
+.hero h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    margin-bottom: 0px;
+    font-size: 78px;
+    padding: 0px;
+    color: aliceblue;
+}
+
+.hero h3 {
+    margin: 0px 0px 68px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(194, 133, 10);
+    color: black;
+    border-radius: 8px;
+    font-size: 28px;
+    padding: 15px 35px;
 }
